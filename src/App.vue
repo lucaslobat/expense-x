@@ -2,13 +2,15 @@
 import Header from './components/Header.vue';
 import BalanceData from './components/BalanceData.vue';
 import IncomeAndExpense from './components/IncomeAndExpense.vue';
+import TransactionsList from './components/TransactionsList.vue';
 </script>
 
 <template>
   <section class="d-flex flex-column ga-4">
     <Header />
     <BalanceData />
-    <IncomeAndExpense/>
+    <IncomeAndExpense />
+    <TransactionsList />
   </section>
 </template>
 
