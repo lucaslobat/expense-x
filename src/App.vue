@@ -6,7 +6,7 @@ import TransactionsList from './components/TransactionsList.vue';
 </script>
 
 <template>
-  <section class="d-flex flex-column ga-4">
+  <section class="d-flex flex-column ga-3">
     <Header />
     <BalanceData />
     <IncomeAndExpense />
@@ -14,4 +14,5 @@ import TransactionsList from './components/TransactionsList.vue';
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
