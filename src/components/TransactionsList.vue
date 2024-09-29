@@ -72,7 +72,7 @@
           income__border: transaction.type === 'income',
         }"
       >
-        <div class="d-flex justify-space-between">
+        <div class="d-flex justify-space-between transaction__data">
           <span> {{ transaction.description }}</span>
           <span> {{ transaction.price }} €</span>
         </div>
@@ -128,5 +128,9 @@ const submitForm = () => {
 
 .income__border {
   border-right: 0.5em solid #8eed98;
+}
+
+.transaction__data{
+  text-overflow:ellipsis;
 }
 </style>
