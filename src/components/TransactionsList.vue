@@ -100,11 +100,11 @@ const expenseInputData = ref({
   type: 'expense',
 });
 
-const expenseDescriptionRules = ref([(v) => !!v || 'Description is required']);
+const expenseDescriptionRules = ref([(value) => !!value || 'Description is required']);
 
 const expensePriceRules = ref([
-  (v) => !!v || 'Price is required',
-  (v) => !isNaN(v) || 'Price must be a valid number',
+  (value) => !!value || 'Price is required',
+  (value) => !isNaN(value) || 'Price must be a valid number',
 ]);
 
 const submitForm = () => {
